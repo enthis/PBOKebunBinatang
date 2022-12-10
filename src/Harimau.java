@@ -7,4 +7,7 @@ public class Harimau implements Hewan {
     public void Makan() {
         System.out.println("Harimau Makan");
     }
+    public void Melahirkan(){
+        System.out.println("Harimau Melahirkan");
+    }
 }

@@ -1,5 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Ayam a = new Ayam();
+        a.Lari();
+        a.Makan();
+
+        Harimau h = new Harimau();
+        h.Lari();
+        h.Makan();
+        h.Melahirkan();
     }
 }
